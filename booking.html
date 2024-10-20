@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Walk</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Book a Walk for Your Dog</h1>
+    </header>
+
+    <main>
+        <section id="booking-form">
+            <form id="walkForm">
+                <label for="dog-name">Dog's Name:</label>
+                <input type="text" id="dog-name" name="dogName" required><br><br>
+
+                <label for="date">Preferred Walk Date:</label>
+                <input type="date" id="date" name="date" required><br><br>
+
+                <label for="time">Preferred Walk Time:</label>
+                <select id="time" name="time" required>
+                    <option value="8:00 AM">8:00 AM</option>
+                    <option value="10:00 AM">10:00 AM</option>
+                    <option value="12:00 PM">12:00 PM</option>
+                    <option value="2:00 PM">2:00 PM</option>
+                    <option value="4:00 PM">4:00 PM</option>
+                </select><br><br>
+
+                <label for="payment">Payment Method:</label>
+                <p>Cash Only</p><br>
+
+                <button type="submit" class="button">Confirm Booking</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Happy Paws Dog Walking Service</p>
+    </footer>
+</body>
+</html>
